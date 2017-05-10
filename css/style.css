@@ -9,7 +9,21 @@ body{
 	background-color: currentColor;
 	font-family: Arial;
 }
-
+.complete{
+	display: block;
+	width: 100%;
+	height:20px;
+	background-color:red;
+}
+.complete:hover{
+	background-color:crimson;
+}
+.hot{
+	background-color: #0043bf;
+}
+.hot:hover{
+	background-color: darkblue;
+}
 .main {
 	width: 400px;
 	min-height: 500px;
@@ -39,7 +53,7 @@ body{
 	font-size: 18px;
 	height: 50px;
 	padding-top: 25px;
-	background-color: #0043bf;
+	
 	color: white;
 	
 	
@@ -82,13 +96,13 @@ body{
 	padding-left: 10px;
 	width: 92%;
 }
-.main form input[type=button]{
+.main form input[type=submit]{
 	color:white;
 	height: 45px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #0043bf;
 }
-.main form input[type=button]:hover{
+.main form input[type=submit]:hover{
 	background-color: darkblue;
 }
