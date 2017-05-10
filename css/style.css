@@ -1,6 +1,3 @@
-*{
-	box-sizing: border-box;
-}
 html{
 	margin: 0 auto;
 	width: 100%;
@@ -10,5 +7,74 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	background-color: currentColor;
+	font-family: Arial;
 }
 
+.main {
+	width: 400px;
+	height: 500px;
+	margin: 100px auto;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.main h1 {
+	text-align: center;
+	color: #0043bf;
+	padding-top: 15px;
+	font-weight: 900;
+}
+.main ul {
+	text-align: center;
+	list-style: none;
+	display: block;
+	padding: 0;
+	width: 100%;
+	
+	
+}
+.main ul li {
+	width:100%;
+	font-size: 18px;
+	height: 50px;
+	padding-top: 25px;
+	background-color: #0043bf;
+	color: white;
+	
+	
+}
+.main ul li:hover{
+	background-color:darkblue;
+}
+.main form label {
+	padding-left: 10px;
+}
+
+.main form input{
+	width: 95%;
+	border: 1px solid #0043bf;
+	margin: 10px;
+	height: 30px;
+}
+#newItem #showform{
+	color:currentcolor;
+	background-color: white;
+	border:none;
+	float:right;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.main form input[type=text]{
+	padding-left: 10px;
+	width: 92%;
+}
+.main form input[type=button]{
+	color:white;
+	height: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #0043bf;
+}
+.main form input[type=button]:hover{
+	background-color: darkblue;
+}

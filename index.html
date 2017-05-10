@@ -3,17 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jquery to do list</title>
+<title>Jquery to do list <span class="counter"></span></title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<section class="main">
-	
-	
-	
+<section class="main">	
+<h1>TO DO LIST</h1>
+<ul>
+	<li>Śniadanie</li>
+	<li>Obiad</li>
+	<li>Kolacja</li>
+</ul>
+<div id="newItem"><button id="showform">Element to add:</button></div>
+<form>
+	<input type="text" placeholder="write element to list:">
+	<input type="button" value="add element">
+</form>	
 	
 </section><!-- section main -->
-
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
