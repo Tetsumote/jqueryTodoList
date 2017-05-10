@@ -12,8 +12,9 @@ body{
 
 .main {
 	width: 400px;
-	height: 500px;
+	min-height: 500px;
 	margin: 100px auto;
+	margin-bottom: 0;
 	background-color: #FFFFFF;
 	position: relative;
 }
@@ -29,6 +30,7 @@ body{
 	display: block;
 	padding: 0;
 	width: 100%;
+	min-height: 250px;
 	
 	
 }
@@ -42,11 +44,19 @@ body{
 	
 	
 }
+#element{
+	font-size: 18px;
+	font-weight: 400;
+}
+#counter{
+	font-size: 18px;
+	font-weight: 700;
+}
 .main ul li:hover{
 	background-color:darkblue;
 }
-.main form label {
-	padding-left: 10px;
+.main form {
+	display: none;
 }
 
 .main form input{
@@ -55,13 +65,17 @@ body{
 	margin: 10px;
 	height: 30px;
 }
-#newItem #showform{
+#newItemButton #showform{
 	color:currentcolor;
 	background-color: white;
-	border:none;
-	float:right;
+	border:1px solid #0043bf;
+	padding: 10px;
 	font-size: 18px;
-	margin-right: 5px;
+	display: block;
+	margin:40px auto;
+}
+#newItemButton #showform:hover{
+	color: darkblue;
 }
 
 .main form input[type=text]{
